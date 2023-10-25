@@ -33,7 +33,7 @@
   color: #fff;
 }
 
-.trending-sushi,
+.trending-digital,
 .trending-drinks {
   width: 100%;
   min-height: 640px;
@@ -103,8 +103,8 @@
   background-position: center;
 }
 
-/* .trending-sushi .trending__image {
-  background-image: url("../../assets/japanese_sushi.png");
+/* .trending-digital .trending__image {
+  background-image: url("../../assets/japanese_digital.png");
 }
 
 .trending-drink .trending__image {
