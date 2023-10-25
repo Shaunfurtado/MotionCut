@@ -1,0 +1,88 @@
+
+.contact-form-section {
+  padding: 64px;
+
+  background-color: var(--primary-color);
+  background-image: url('../../assets/subscribe_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.contact-form-section h2 {
+  font-size: 88px;
+  font-family: var(--playfair-display);
+  font-weight: 600;
+  line-height: 123px;
+
+  color: #fff;
+  text-align: center;
+}
+
+.contact-form-section p {
+  font-size: 18px;
+  font-family: var(--plus-jakarta-sans);
+  font-weight: 300;
+  line-height: 36px;
+
+  margin-top: 32px;
+  
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-form {
+  min-width: 500px;
+  margin-top: 40px;
+
+  padding: 14px 14px 14px 24px;
+
+  display: flex;
+  flex-direction: column; /* Change flex-direction to column for a contact form */
+  gap: 20px;
+
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 36px;
+}
+
+.contact-form input {
+  flex: 1;
+
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+
+  color: #fff;
+  opacity: 0.5;
+
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.contact-form input::placeholder {
+  color: #f9f9f9;
+  opacity: 0.5;
+}
+
+.contact-form button {
+  padding: 10px 20px; /* Adjusted padding for a smaller button */
+  min-width: 20px; /* Adjusted minimum width for a smaller button */
+
+  font-size: 24px; /* Adjusted font size for a smaller button */
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+  color: #fff8f8;
+  text-align: center;
+
+  background: var(--black-200);
+  border-radius: 26px;
+  border:none;
+  outline: none;
+  
+
+  cursor: pointer;
+}
+
