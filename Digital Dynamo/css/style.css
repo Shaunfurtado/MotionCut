@@ -15,7 +15,7 @@
   --playfair-display: "Playfair Display", serif;
   --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
 
-  --primary-color: #b1454a;
+  --primary-color: hsl(357, 44%, 48%);
   --secondary-color: #121212;
 
   --black-200: #020202;
@@ -102,7 +102,6 @@ a {
 /* Hide scrollbar for IE, Edge and Firefox */
 .sushi__hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
 
 /* START: about us media queries */
