@@ -156,10 +156,6 @@ a {
     padding: 32px;
   }
 }
-/* END: about us media queries */
-
-
-/* START: header media querie */
 @media screen and (max-width: 900px) {
   .header__nav {
     background: var(--primary-color);
